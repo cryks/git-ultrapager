@@ -2275,7 +2275,6 @@ fn send_latest_response(
 #[cfg(test)]
 mod tests {
     use std::cell::Cell;
-    use std::fmt::Write as _;
     use std::panic::{AssertUnwindSafe, catch_unwind};
     use std::time::{Duration, Instant};
 
